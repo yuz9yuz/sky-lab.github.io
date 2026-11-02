@@ -30,9 +30,9 @@ Open <http://localhost:8000/>. Stop the server with Ctrl+C. After changing the d
 
 ## Publish
 
-In [Settings → Pages](https://github.com/yuzhimanhua/sky-lab.github.io/settings/pages), under **Build and deployment**, set **Source** to **GitHub Actions**. This setting is required: **Deploy from a branch** publishes the repository's source files, which can display this README as the homepage. Its separate deployment can also overwrite the website deployed by our workflow.
+In [Settings → Pages](https://github.com/yuz9yuz/sky-lab.github.io/settings/pages), under **Build and deployment**, set **Source** to **GitHub Actions**. This setting is required: **Deploy from a branch** publishes the repository's source files, which can display this README as the homepage. Its separate deployment can also overwrite the website deployed by our workflow.
 
-Push changes to `main`. The **Build and deploy website** GitHub Actions workflow builds, checks, and deploys `site/` to [the public website](https://yuzhimanhua.github.io/sky-lab.github.io/). Pull requests run the same build and checks without deploying. After changing the Pages source, run this workflow from the [Actions tab](https://github.com/yuzhimanhua/sky-lab.github.io/actions/workflows/publish.yaml) or push a new change to `main` to publish the site.
+Push changes to `main`. The **Build and deploy website** GitHub Actions workflow builds, checks, and deploys `site/` to [the public website](https://yuz9yuz.github.io/sky-lab.github.io/). Pull requests run the same build and checks without deploying. After changing the Pages source, run this workflow from the [Actions tab](https://github.com/yuz9yuz/sky-lab.github.io/actions/workflows/publish.yaml) or push a new change to `main` to publish the site.
 
 Commit the edited JSON, scripts, or assets. Generated HTML is ignored by Git and recreated automatically during deployment.
 
