@@ -153,6 +153,20 @@
     ]
   },
   {
+    "id": "jason-kim",
+    "name": "Jason Kim",
+    "order": 401,
+    "group": "Undergraduate Students",
+    "role": "BS Student (Fall 2026 - )",
+    "image": "assets/people/jason-kim.jpg",
+    "links": [
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/citations?user=WE8DogcAAAAJ&hl=en"
+      }
+    ]
+  },
+  {
     "id": "yi-lu",
     "name": "Yi Lu",
     "order": 601,
